@@ -8,7 +8,7 @@ Accurate segmentation of inconspicuous polyps in video layers is crucial for ear
   + Install requirements with following command `pip install -r requirements.txt`
 ## 2. Prepare datasets
 ## 3. Train & Evaluate
-  ### Train
+### Train
   CUDA_VISIBLE_DEVICES=0 python run/Train.py --config configs/UHVIMN-L.yaml --verbose --debug
 ### Test 
   # Generate prediction for benchmarks
