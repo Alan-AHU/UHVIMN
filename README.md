@@ -11,8 +11,6 @@ Accurate segmentation of inconspicuous polyps in video layers is crucial for ear
 ### Train
   CUDA_VISIBLE_DEVICES=0 python run/Train.py --config configs/UHVIMN-L.yaml --verbose --debug
 ### Test 
-  # Generate prediction for benchmarks
   python run/Test.py --config configs/UHVIMN-L.yaml --verbose
 ### Evaluate
-  # Evaluate on various metrics
   python run/Eval.py --config configs/UHVIMN-L.yaml --verbose
